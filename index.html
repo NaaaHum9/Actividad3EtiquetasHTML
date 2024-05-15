@@ -1,0 +1,104 @@
+<!--
+    Alumno: Velazquez Garduno Jorge Nahum
+    Grupo: 4CM3
+    L1 - Ejercicios de HTML5
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas navegacion</title>
+    <link rel="stylesheet" href="/Actividad 3/style.css">
+</head>
+
+<body>
+    <header class="headerPrincipal">
+        <h1>Pagina</h1>
+        <p>Hola este es la parte de header</p>
+        <div>
+            <img src="/Imagenes/images.jpg" alt="logoIPN">
+        </div>
+        <h2>SItio web de pruebas</h2>
+        <p>Un sitio para probar HTML</p>
+    </header>
+
+    <nav class="navContenido">
+        <ul>
+            <li><a href="/Actividad 3/index.html">Inicio</a></li>
+            <li><a href="">Nosotros</a></li>
+            <li><a href="">Servicios</a></li>
+            <li><a href="">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article class="articleOne">
+            <h3>Article</h3>
+            <p>Titulo dentro del article</p>
+            <p>Dentro de una apartado</p>
+            <ul>
+                <li>Elemento 1</li>
+                <li>Elemento 2</li>
+                <li>Elemento 3</li>
+            </ul>
+            <h3>Parrafo</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia labore hic fuga dolor consectetur deserunt, voluptatibus porro nisi nihil laborum voluptas ipsam, ratione blanditiis alias odio, dicta fugiat tenetur delectus?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam aut laudantium repellendus commodi accusantium sapiente quibusdam, perferendis earum eveniet voluptatum mollitia molestiae sint, tempore quia voluptate ratione, at maiores dicta.</p>
+            <img src="/Imagenes/dune.jpg" alt="duneImagen2">
+        </article>
+        <article class="articleTwo">
+            <h3>Figuras</h3>
+            <p>Existen diferentes tipos de figuras</p>
+            <section>
+                <h4>Cuadrado</h4>
+                <p>El cuadrado tiene todos sus 4 lados iguales</p>
+            </section>
+            <section>
+                <h4>Triangulo</h4>
+                <p>Existen 3 tipos de triangulos</p>
+                <p>Triangulo isoseles, triangulo rectangulo y triangulo equilatero</p>
+            </section>
+            <section>
+                <h4>Circulo</h4>
+                <p>El circulo contienen una circunferencia</p>
+            </section>
+        </article>
+
+        <aside class="asideElement">
+            <h3>Elemento aside</h3>
+            <p>Aside puede usarse para la barra lateral en las que pueden ir elementos de widgets</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta ullam explicabo quia sequi odit labore architecto accusamus, consequatur fuga ea ipsa qui minima dignissimos et voluptatum quasi eveniet aut atque.</p>
+        </aside>
+
+        <div class="audiPage">
+            <h3>Audio</h3>
+            <p>Colocamos audio en la pagina web</p>
+            <audio src="/Audio/downfall-3-208028.mp3" controls></audio>
+            <h3>Mas audio con SOURCE</h3>
+            <source src="/Audio/downfall-3-208028.mp3" >
+            <audio src="/Audio/downfall-3-208028.mp3" loop controls>Loop</audio>
+        </div>
+
+        <div class="videoPage">
+            <h3>Esto es un video en la pagina</h3>
+            <video src="/Videos/2024-04-24_22-03-29.mp4"></video>
+        </div>
+
+        <div class="animateClass">
+            <svg width="1000" height="250">
+                <circle cx="120" cy="150" r="80" fill="red">
+                <animate attributeName="cx" from="0" to="300" dur="5s" fill="freeze" repeatCount="3"/>
+                </circle>
+            </svg>
+        </div>
+    </main>
+
+    <footer class="footerPage">
+        <h5>Pie de pagina</h5>
+        <p>Este es el pie de la pagina, aqui van logos, numeros de telefono, correos o informacion relevante</p>
+        <img src="/Imagenes/dune.jpg" alt="duneImgs">
+    </footer>
+    
+</body>
+</html>

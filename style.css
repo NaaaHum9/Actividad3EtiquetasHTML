@@ -1,0 +1,42 @@
+.headerPrincipal{
+    background-color: gray;
+}
+
+img{
+    height: 80px;
+    margin-left: 10px;
+}
+
+.navContenido{
+    background-color: bisque;
+}
+
+/*main{
+    background-color: gray;
+}*/
+
+.articleOne{
+    background-color: darkkhaki;
+}
+
+
+.articleTwo{
+    background-color: darkgray;
+}
+
+.asideElement{
+    background-color: floralwhite;
+}
+
+.audiPage{
+    background-color: khaki;
+    padding-bottom: 5%;
+}
+
+
+.footerPage{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 5%;
+}
